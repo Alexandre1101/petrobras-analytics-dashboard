@@ -93,6 +93,7 @@ Add screenshots here after building the dashboard.
 Example:
 
 ![Dashboard Preview](assets/dashboard.png)
+
 Installation
 
 Clone the repository:

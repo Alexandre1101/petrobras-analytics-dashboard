@@ -1,16 +1,43 @@
 import streamlit as st
-from utils.load_data import load_data
 
+def load_css():
+
+    with open("assets/style.css") as f:
+        st.markdown(
+            f"<style>{f.read()}</style>",
+            unsafe_allow_html=True
+        )
+
+load_css()
 st.set_page_config(
     page_title="Petrobras Dashboard",
     page_icon="⛽",
     layout="wide"
 )
 
+# =========================================================
+# SIDEBAR
+# =========================================================
+
+st.sidebar.image(
+    "assets/logo.png",
+    use_container_width=True
+)
+
+st.sidebar.markdown("## Petrobras Analytics")
+
+st.sidebar.markdown("""
+Interactive dashboard for fictional Petrobras
+financial, operational and ESG analysis.
+""")
+
+# =========================================================
+# MAIN PAGE
+# =========================================================
+
 st.title("⛽ Petrobras Analytics Dashboard")
 
-data = load_data()
-
-st.subheader("Prévia dos Dados Financeiros")
-
-st.dataframe(data["financeiro"])
+st.markdown("""
+Business intelligence dashboard developed with
+Streamlit, Pandas and Plotly.
+""")

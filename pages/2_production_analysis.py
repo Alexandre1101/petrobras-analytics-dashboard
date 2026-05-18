@@ -25,7 +25,10 @@ producao = data["producao"]
 # =========================================================
 # TITLE
 # =========================================================
-
+st.image(
+    "assets/logo.png",
+    width=180
+)
 st.title("🛢️ Production Analysis")
 
 st.markdown("""

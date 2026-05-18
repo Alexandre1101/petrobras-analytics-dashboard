@@ -24,7 +24,10 @@ petr4 = data["petr4"]
 # =========================================================
 # TITLE
 # =========================================================
-
+st.image(
+    "assets/logo.png",
+    width=180
+)
 st.title("📊 Market Analysis")
 
 st.markdown("""

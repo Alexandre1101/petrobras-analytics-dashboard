@@ -8,10 +8,7 @@ from utils.kpis import financial_kpis
 # =========================================================
 # PAGE CONFIG
 # =========================================================
-st.image(
-    "assets/logo.png",
-    width=180
-)
+
 st.set_page_config(
     page_title="Financial Overview",
     page_icon="📈",
@@ -29,7 +26,10 @@ financeiro = data["financeiro"]
 # =========================================================
 # PAGE TITLE
 # =========================================================
-
+st.image(
+    "assets/logo.png",
+    width=180
+)
 st.title("📈 Financial Overview")
 
 st.markdown("""

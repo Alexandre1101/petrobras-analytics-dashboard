@@ -147,7 +147,7 @@ petrobras-dashboard/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/petrobras-analytics-dashboard.git
+git clone https://github.com/Alexandre1101/petrobras-analytics-dashboard.git
 ```
 
 Access the project folder:

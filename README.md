@@ -88,11 +88,27 @@ petrobras-dashboard/
     └── config.toml
 Dashboard Preview
 
-Add screenshots here after building the dashboard.
+## App overview
 
-Example:
+![Dashboard Preview](assets/dashboard_preview.png)
 
-![Dashboard Preview](assets/dashboard.png)
+## Financial Overview
+
+![Financial Overview](assets/dashboard_p1.png)
+
+## Production Analytics
+
+![Production Analytics](assets/dashboard_p2.png)
+
+## ESG Analysis
+
+![ESG Insights](assets/dashboard_p3.png)
+
+## Market Analytics
+
+![Market Analytics](assets/dashboard_p4.png)
+
+
 
 Installation
 

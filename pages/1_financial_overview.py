@@ -2,7 +2,7 @@ import streamlit as st
 from utils.load_data import load_data
 from utils.charts import revenue_chart
 from utils.kpis import financial_kpis
-
+from utils.charts import revenue_chart
 
 st.title("📈 Financial Overview")
 
@@ -45,3 +45,7 @@ col3.metric(
     f"R$ {ebitda:.2f} Bi",
     delta=f"{ebitda_delta:.1f}%"
 )
+
+fig = revenue_chart(financeiro)
+
+st.plotly_chart(fig, use_container_width=True)

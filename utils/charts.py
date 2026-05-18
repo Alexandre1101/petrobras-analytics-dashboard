@@ -11,3 +11,15 @@ def revenue_chart(df):
     )
 
     return fig
+
+def revenue_chart(df):
+
+    fig = px.line(
+        df,
+        x="ano",
+        y="receita_bilhoes",
+        markers=True,
+        title="Revenue Over Time"
+    )
+
+    return fig

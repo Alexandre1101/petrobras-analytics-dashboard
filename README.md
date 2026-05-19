@@ -178,7 +178,7 @@ streamlit run app.py
 
 This project uses a fictional dataset created exclusively for educational and portfolio purposes.
 
-The data does not represent real operational or financial information from :contentReference[oaicite:0]{index=0}.
+The data does not represent real operational or financial information from Petrobras.
 
 ---
 

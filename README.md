@@ -8,6 +8,10 @@
 Interactive dashboard for fictional Petrobras financial, operational and ESG data analysis built with Streamlit, Pandas and Plotly.
 
 ---
+## Live Demo
+
+🚀 Streamlit Cloud:
+https://petrobras-analytics-dashboard-d2anvvtcle6g6ok4ihr8ww.streamlit.app/
 
 ## Overview
 

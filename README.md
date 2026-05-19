@@ -11,7 +11,7 @@ Interactive dashboard for fictional Petrobras financial, operational and ESG dat
 ## Live Demo
 
 🚀 Streamlit Cloud:
-https://petrobras-analytics-dashboard-d2anvvtcle6g6ok4ihr8ww.streamlit.app/
+https://petrobras-analytics-dashboard-e6fupnnaxjjt8axdbdk4sh.streamlit.app/
 
 ## Overview
 
